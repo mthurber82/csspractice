@@ -4,7 +4,7 @@
 
 .box {
   float: left;
-  width: 50%%; /* two boxes */
+  width: 50%; /* two boxes */
   padding: 50px; /* space between the images */
 }
 
@@ -14,16 +14,18 @@ body {
 }
 
 header {
-  padding: 60px;
+  padding: 10px;
+  /*box-sizing: 60px; */
   text-align: center;
   color: #000;
-  background-image: url("./assets_mt/img/Untitled-1.png");
-  background-repeat: repeat-x;
+  background-image: url("../img/Untitled-1.png");
+  /*background-repeat: repeat-x; */
 }
 
 header h1 {
   text-align: right;
-  margin: 10px;
+  /*margin: 10px; */
+  color: rgb(53, 30, 182);
 }
 
 nav {
@@ -119,5 +121,16 @@ section.boxes {
 @media screen and (max-width: 576px) {
   .sample-img {
     background-color: #8ac4ff;
+  }
+}
+
+/* Blink Me! */
+.blink_me {
+  animation: blinker 1s linear infinite;
+}
+
+@keyframes blinker {
+  50% {
+    opacity: 0;
   }
 }
