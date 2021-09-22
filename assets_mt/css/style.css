@@ -55,16 +55,17 @@ main {
 
 aside {
   flex: 30%;
-  background-color: #b9c6ae;
+  background-color: white;
   padding: 20px;
   flex-wrap: wrap;
+  border-right: blue;
 }
 
 section {
   flex: 70%;
   background-color: #fff;
   padding: 20px;
-}
+  }
 
 footer {
   padding: 20px;
