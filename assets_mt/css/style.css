@@ -59,13 +59,24 @@ aside {
   padding: 20px;
   flex-wrap: wrap;
   border-right: blue;
+  text-decoration-color: #415a7b;
+  text-align: right;
+  border-right: 5px solid #415a7b;
 }
 
 section {
   flex: 70%;
   background-color: #fff;
   padding: 20px;
+  font-size: small;
   }
+
+banner  {
+
+}
+h4 {
+  text-decoration-color: blue;
+}
 
 footer {
   padding: 20px;
