@@ -71,9 +71,7 @@ section {
   font-size: small;
   }
 
-banner  {
 
-}
 h4 {
   text-decoration-color: blue;
 }
@@ -86,24 +84,31 @@ footer {
 }
 
 /* Image Placeholders */
-.sample-img {
+/* .sample-img {
   background-color: #fff;
   width: 100%;
   padding: 20px;
   height: 200px;
   border: 1px solid black;
+} */
+
+
+
+img#banner {
+  width: 75%;
+  height: 75%;
 }
 
-img {
-  width: 200px;
-  height: 200px;
-  background-color: lightblue;
-  /* Margin */
-  margin: 20px;
-  /* Padding */
-  padding: 20px;
-  /* Border */
-  border: 1px solid darkblue;
+img#box_img {
+  width: 25%;
+  height: 25%;
+  
+}
+
+img.center {
+  position: absolute;
+  left: 50%;
+  top: 50%;
 }
 
 section.boxes {
@@ -113,7 +118,7 @@ section.boxes {
   border: 15px solid black;
 }
 
-/* When using `max-width` as the breakpoint, you must go from widest to narrowest to avoid conflict */
+/* Using `max-width` as the breakpoint */
 
 /* Tablets - header changes color */
 @media screen and (max-width: 992px) {
@@ -133,16 +138,5 @@ section.boxes {
 @media screen and (max-width: 576px) {
   .sample-img {
     background-color: #8ac4ff;
-  }
-}
-
-/* Blink Me! */
-.blink_me {
-  animation: blinker 1s linear infinite;
-}
-
-@keyframes blinker {
-  50% {
-    opacity: 0;
   }
 }
