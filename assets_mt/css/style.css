@@ -92,27 +92,26 @@ footer {
   border: 1px solid black;
 } */
 
-
-
 img#banner {
   width: 75%;
   height: 75%;
+  border: 5px solid #80c9cb;
 }
 
 img#box_img {
   width: 25%;
   height: 25%;
-  
+  border: 5px solid #80c9cb;
 }
 
 img.center {
-  position: absolute;
   left: 50%;
   top: 50%;
 }
 
 .flex-container:hover img {
   opacity: .5;
+  transition: .5s ease;
 }
 
 section.boxes {
