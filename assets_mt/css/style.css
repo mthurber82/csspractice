@@ -111,6 +111,10 @@ img.center {
   top: 50%;
 }
 
+.flex-container:hover img {
+  opacity: .5;
+}
+
 section.boxes {
   width: 600px;
   height: 600px;
